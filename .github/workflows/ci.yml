@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    # Specify the custom runner labels
+    # Specify the customd runner labels
     runs-on: 
       group: default
 

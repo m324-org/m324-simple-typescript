@@ -11,7 +11,8 @@ on:
 jobs:
   build:
     # Specify the custom runner labels
-    runs-on: [self-hosted, test]
+    runs-on: 
+      group: default
 
     steps:
       - name: Checkout code

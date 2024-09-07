@@ -15,7 +15,7 @@ jobs:
       group: default
 
     steps:
-      # Step 1: Checkout the code
+      # Step 1: Checkout the codes
       - name: Checkout code
         uses: actions/checkout@v3
 
